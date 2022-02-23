@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ROLL20</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,8 +13,13 @@
 <body>
     <div class="container">
         <img src="logo.png" alt="roll20"/>
-        <div class="result"></div>
-        <div class="roll">ROLAR</div>
+        <div id="result"></div>
+        <div class="roll" onclick="setValue()">ROLAR</div>
+        <ul>
+            <li>Resultados</li>
+        </ul>
+
+        <script src="scripts.js"></script>
     </div>
 </body>
 </html>
